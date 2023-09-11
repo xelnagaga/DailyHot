@@ -85,7 +85,13 @@ export const mainStore = defineStore("main", {
           value: "douban_new",
           order: 13,
           show: true
-        }
+        },
+        {
+          label: "财新网",
+          value: "caixin",
+          order: 14,
+          show: true
+    }
       ],
       // 链接跳转方式
       linkOpenType: "open",
