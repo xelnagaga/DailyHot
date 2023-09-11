@@ -51,11 +51,11 @@ export const mainStore = defineStore("main", {
           show: true,
         },
         {
-          label: "少数派",
-          value: "sspai",
+          label: "IT之家",
+          value: "ithome",
           order: 7,
-         show: true,
-      },
+          show: true,
+        },
         {
           label: "澎湃新闻",
           value: "thepaper",
