@@ -11,7 +11,7 @@ export const mainStore = defineStore("main", {
         {
           label: "哔哩哔哩",
           value: "bilibili",
-          order: 0,
+          order: 2,
           show: true,
         },
         {
@@ -23,7 +23,7 @@ export const mainStore = defineStore("main", {
         {
           label: "抖音",
           value: "douyin",
-          order: 2,
+          order: 0,
           show: true,
         },
         {
