@@ -9,9 +9,9 @@ export const mainStore = defineStore("main", {
       // 新闻类别
       newsArr: [
         {
-          label: "哔哩哔哩",
-          value: "bilibili",
-          order: 2,
+          label: "抖音",
+          value: "douyin",
+          order: 0,
           show: true,
         },
         {
@@ -21,9 +21,9 @@ export const mainStore = defineStore("main", {
           show: true,
         },
         {
-          label: "抖音",
-          value: "douyin",
-          order: 0,
+          label: "哔哩哔哩",
+          value: "bilibili",
+          order: 2,
           show: true,
         },
         {
