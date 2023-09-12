@@ -198,7 +198,6 @@ const getNewData = () => {
 
 // 链接跳转
 const jumpLink = (data) => {
-  console.log("jumpLink called with data:", data);
   if (!data.url || !data.mobileUrl) return $message.error("链接不存在");
   const url = window.innerWidth > 680 ? data.url : data.mobileUrl;
   if (store.linkOpenType === "open") {
