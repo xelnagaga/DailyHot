@@ -87,9 +87,15 @@ export const mainStore = defineStore("main", {
           show: true
         },
         {
+          label: "52破解",
+          value: "52pojie",
+          order: 14,
+          show: true
+        },
+        {
           label: "财新网",
           value: "caixin",
-          order: 14,
+          order: 15,
           show: true
     }
       ],
