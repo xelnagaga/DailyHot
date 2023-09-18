@@ -93,9 +93,33 @@ export const mainStore = defineStore("main", {
           show: true
         },
         {
+          label: "快手",
+          value: "kuaishou",
+          order: 15,
+          show: true
+        },
+        {
+          label: "微信读书",
+          value: "weread",
+          order: 16,
+          show: true
+        },
+        {
+          label: "原神",
+          value: "genshin",
+          order: 17,
+          show: true
+        },
+        {
+          label: "英雄联盟",
+          value: "lol",
+          order: 18,
+          show: true
+        },
+        {
           label: "财新网",
           value: "caixin",
-          order: 15,
+          order: 19,
           show: true
     }
       ],
