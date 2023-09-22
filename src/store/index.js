@@ -189,7 +189,7 @@ export const mainStore = defineStore("main", {
       label: "中文播客榜",
       value: "bokerank",
       order: 26,
-      show: falseß
+      show: false
     },
     {
       label: "票房排行榜",
