@@ -49,7 +49,7 @@ export default defineConfig({
         ],
       },
       manifest: {
-        name: "今日热榜",
+        name: "赞呗",
         short_name: "DailyHot",
         description: "热榜看这一个就够了！实时最全热榜集合！",
         display: "standalone",
