@@ -186,12 +186,7 @@ export const mainStore = defineStore("main", {
       show: true
     },
 
-    {
-      label: "票房排行榜",
-      value: "piaofang",
-      order: 27,
-      show: true
-    },
+  
     {
       label: "52破解",
       value: "52pojie",
