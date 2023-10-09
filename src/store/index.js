@@ -158,7 +158,12 @@ export const mainStore = defineStore("main", {
       order: 22,
       show: true,
     },
-    
+    {
+      label: "票房排行榜",
+      value: "piaofang",
+      order: 22,
+      show: true,
+    },
     {
       label: "百度贴吧",
       value: "tieba",
