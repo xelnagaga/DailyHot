@@ -66,7 +66,7 @@ export const mainStore = defineStore("main", {
         },
         {
           label: "网易",
-          value: "wangyi",
+          value: "netease",
           order: 9,
           show: true,
         },
